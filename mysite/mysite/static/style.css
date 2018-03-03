@@ -142,6 +142,7 @@ h1 {
 
 h2 {
     font-size: 1.777em;
+    color: #333;
 }
 
 h3 {
@@ -571,7 +572,7 @@ nav ul.sub-menu > li:last-child > a {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,0.35);
+    background: rgba(0,0,0,0.15);
 }
 
 #intro .intro-mockup,
@@ -801,7 +802,7 @@ nav ul.sub-menu > li:last-child > a {
 .blog.list-style .meta-post a,
 .search.list-style .meta-post,
 .search.list-style .meta-post a {
-    color: #ccc;
+    color: #fff;
     font-weight: 400;
 }
 
