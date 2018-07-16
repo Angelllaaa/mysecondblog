@@ -31,4 +31,4 @@ urlpatterns = [
     url(r'^.net_(?P<id>\d+)/$', view.article_net, name='article_net'),
     url(r'^personal_(?P<id>\d+)/$', view.article_personal, name='article_personal'),
     url(r'^deep_learning_(?P<id>\d+)/$', view.article_deep_learning, name='article_deep_learning'),
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
